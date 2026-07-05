@@ -1,0 +1,8 @@
+# Lightweight dependencies only - NO TensorFlow / Keras / PyTorch required.
+# These all install quickly and run on low-spec laptops.
+
+streamlit==1.38.0                   # Web UI framework (frontend + backend in pure Python)
+Pillow==10.4.0                      # Image loading and basic processing (lightweight)
+opencv-python-headless==4.10.0.84   # Image analysis for the offline fallback (headless = no GUI deps)
+numpy==1.26.4                       # Numerical operations on image arrays
+requests==2.32.3                    # Calls the Hugging Face Inference API (remote AI, no local compute)

@@ -1,0 +1,12 @@
+# Streamlit theme - a clean, medical-looking dashboard palette.
+[theme]
+primaryColor = "#0e76a8"          # medical blue accents (buttons, progress)
+backgroundColor = "#ffffff"       # clean white background
+secondaryBackgroundColor = "#f0f4f8"  # soft grey for sidebar/cards
+textColor = "#1f2937"             # dark slate text for readability
+font = "sans serif"
+
+[server]
+# Helpful defaults for low-spec laptops.
+headless = true
+fileWatcherType = "auto"
